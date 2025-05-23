@@ -2,8 +2,9 @@ require("dotenv").config();
 const express = require("express");
 const db = require("./db");
 const app = express();
+const initDatabase = require("./init-db");
 
-initDataBase();
+initDatabase();
 
 
 // Middleware para procesar JSON
