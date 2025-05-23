@@ -5,6 +5,7 @@ const app = express();
 
 initDataBase();
 
+
 // Middleware para procesar JSON
 app.use(express.json());
 
