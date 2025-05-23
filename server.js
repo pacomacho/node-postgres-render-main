@@ -6,7 +6,6 @@ const initDatabase = require("./init-db");
 
 initDatabase();
 
-
 // Middleware para procesar JSON
 app.use(express.json());
 
